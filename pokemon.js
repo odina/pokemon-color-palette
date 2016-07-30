@@ -32,9 +32,6 @@ function getColors(image, context) {
       if(rgba[3] === 0) // alpha = 0
         continue;
 
-      if(color === 'ffffff')
-        continue;
-
       if(colorhash[color] === undefined)
         colorhash[color] = 1;
       else
